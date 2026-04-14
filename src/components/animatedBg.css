@@ -1,0 +1,31 @@
+
+.spark {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: sparkle 4s linear infinite;
+  box-shadow: 0 0 8px #fff, 0 0 12px #6a5cff;
+}
+
+.spark:nth-child(odd) {
+  background: #ff8fab;
+  box-shadow: 0 0 8px #ff8fab, 0 0 12px #ff8fab;
+}
+
+@keyframes sparkle {
+  0% {
+    transform: translateY(0) scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-30px) scale(1);
+  }
+  100% {
+    transform: translateY(-60px) scale(0.3);
+    opacity: 0;
+  }
+}
