@@ -7,7 +7,7 @@ This project showcases my work, skills, and projects as a frontend developer.
 
 ##  Live Demo
 
-https://yeabsira-getachew-portfolio-website.netlify.app/
+https://yeab-get-portfolio.netlify.app/
 
 
 ---
